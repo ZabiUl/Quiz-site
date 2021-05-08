@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div>
+        <h1>Ninja Quiz</h1>
+    </div>
+    <div class="scores">You are <span></span> Ninja.</div>
+    <form class="quiz-segment">
+        <h2>On with the questions...</h2>
+        
+        <div>  
+            <p>1. Which country reside in Scandinavia?</p>
+            <div>    
+                <input type="radio" name="question1" value="option1" id="country1" checked>        
+                <label for="country1">Germany</label>
+            </div>
+            <div>
+                <input type="radio" name="question1" value="option2" id="country2">
+                 <label for="country2">Denmark</label>
+            </div>   
+        </div>
+        
+        <div>
+            <p>2. The largest planet in the Solar system is?</p>
+            <div>    
+                <input type="radio" name="question2" value="option1" id="planet1" checked>
+                <label for="planet1">Jupiter</label>
+            </div>    
+            <div>    
+                <input type="radio" name="question2" value="option2" id="planet2">
+                <label for="planet2">Saturn</label>
+            </div>
+        </div>
+        
+        <div>
+                <p>3. Who invented the Algebra?</p>
+            <div>
+                <input type="radio" name="question3" value="option1" id="scientist1" checked>
+                <label for="scientist1">Al-Biruni</label>
+            </div>
+            <div>
+                <input type="radio" name="question3" value="option2" id="scientist2">
+                <label for="scientist2">Al-Khawarzmi</label>
+            </div>
+        </div>
+        
+        <div> 
+            <p>4. Which one is the largest caliphate of Muslims by area in history?</p>
+            <div>
+                <input type="radio" name="question4" value="option1" id="caliphate1" checked>
+                <label for="caliphate1">Ottoman's caliphate</label>
+            </div>
+            <div> 
+                <input type="radio" name="question4" value="option2" id="caliphate2">
+                <label for="caliphate2">Ummayyad's caliphate</label>
+            </div>
+        </div>
+        <div>
+            <input type="submit" id="submit">
+        </div>    
+    </form>
+    <script src="/quiz.js"></script>
+</body>
+</html>
